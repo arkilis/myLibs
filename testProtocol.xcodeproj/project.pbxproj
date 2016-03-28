@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B57654E91CA60B9A00BE60B7 /* BLHyperTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B57654E81CA60B9A00BE60B7 /* BLHyperTextField.m */; };
+		B57654EC1CA88AD700BE60B7 /* BLImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B57654EB1CA88AD700BE60B7 /* BLImageButton.m */; };
+		B57654F01CA89C5200BE60B7 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = B57654EF1CA89C5200BE60B7 /* tick.png */; };
+		B57654F21CA89ECC00BE60B7 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B57654F11CA89ECC00BE60B7 /* placeholder.png */; };
 		B5B53FC71C6FCC61007CE4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B53FC61C6FCC61007CE4CE /* main.m */; };
 		B5B53FCA1C6FCC61007CE4CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B53FC91C6FCC61007CE4CE /* AppDelegate.m */; };
 		B5B53FCD1C6FCC61007CE4CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B53FCC1C6FCC61007CE4CE /* ViewController.m */; };
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B57654E71CA60B9A00BE60B7 /* BLHyperTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLHyperTextField.h; sourceTree = "<group>"; };
+		B57654E81CA60B9A00BE60B7 /* BLHyperTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHyperTextField.m; sourceTree = "<group>"; };
+		B57654EA1CA88AD700BE60B7 /* BLImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLImageButton.h; sourceTree = "<group>"; };
+		B57654EB1CA88AD700BE60B7 /* BLImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLImageButton.m; sourceTree = "<group>"; };
+		B57654EF1CA89C5200BE60B7 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		B57654F11CA89ECC00BE60B7 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		B5B53FC21C6FCC61007CE4CE /* testProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B53FC61C6FCC61007CE4CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5B53FC81C6FCC61007CE4CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,7 @@
 		B5B53FE61C6FCC62007CE4CE /* testProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B53FEA1C6FCC62007CE4CE /* testProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProtocolUITests.m; sourceTree = "<group>"; };
 		B5B53FEC1C6FCC62007CE4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B53FF81C6FCC7D007CE4CE /* MyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +89,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B57654ED1CA88ADE00BE60B7 /* BLImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				B57654EA1CA88AD700BE60B7 /* BLImageButton.h */,
+				B57654EB1CA88AD700BE60B7 /* BLImageButton.m */,
+				B57654EF1CA89C5200BE60B7 /* tick.png */,
+				B57654F11CA89ECC00BE60B7 /* placeholder.png */,
+			);
+			name = BLImageButton;
+			sourceTree = "<group>";
+		};
+		B57654EE1CA88AF500BE60B7 /* BLHyperTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B57654E71CA60B9A00BE60B7 /* BLHyperTextField.h */,
+				B57654E81CA60B9A00BE60B7 /* BLHyperTextField.m */,
+			);
+			name = BLHyperTextField;
+			sourceTree = "<group>";
+		};
 		B5B53FB91C6FCC61007CE4CE = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +132,14 @@
 		B5B53FC41C6FCC61007CE4CE /* testProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				B57654EE1CA88AF500BE60B7 /* BLHyperTextField */,
+				B57654ED1CA88ADE00BE60B7 /* BLImageButton */,
 				B5B53FC81C6FCC61007CE4CE /* AppDelegate.h */,
 				B5B53FC91C6FCC61007CE4CE /* AppDelegate.m */,
 				B5B53FCB1C6FCC61007CE4CE /* ViewController.h */,
 				B5B53FCC1C6FCC61007CE4CE /* ViewController.m */,
 				B5B53FCE1C6FCC62007CE4CE /* Main.storyboard */,
+				B5B53FF81C6FCC7D007CE4CE /* MyProtocol.h */,
 				B5B53FD11C6FCC62007CE4CE /* Assets.xcassets */,
 				B5B53FD31C6FCC62007CE4CE /* LaunchScreen.storyboard */,
 				B5B53FD61C6FCC62007CE4CE /* Info.plist */,
@@ -245,6 +279,8 @@
 			files = (
 				B5B53FD51C6FCC62007CE4CE /* LaunchScreen.storyboard in Resources */,
 				B5B53FD21C6FCC62007CE4CE /* Assets.xcassets in Resources */,
+				B57654F01CA89C5200BE60B7 /* tick.png in Resources */,
+				B57654F21CA89ECC00BE60B7 /* placeholder.png in Resources */,
 				B5B53FD01C6FCC62007CE4CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B53FCD1C6FCC61007CE4CE /* ViewController.m in Sources */,
+				B57654EC1CA88AD700BE60B7 /* BLImageButton.m in Sources */,
 				B5B53FCA1C6FCC61007CE4CE /* AppDelegate.m in Sources */,
 				B5B53FC71C6FCC61007CE4CE /* main.m in Sources */,
+				B57654E91CA60B9A00BE60B7 /* BLHyperTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +536,7 @@
 				B5B53FF11C6FCC62007CE4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5B53FF21C6FCC62007CE4CE /* Build configuration list for PBXNativeTarget "testProtocolTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +545,7 @@
 				B5B53FF41C6FCC62007CE4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5B53FF51C6FCC62007CE4CE /* Build configuration list for PBXNativeTarget "testProtocolUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +554,7 @@
 				B5B53FF71C6FCC62007CE4CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
